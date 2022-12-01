@@ -1,0 +1,172 @@
+:root {
+    --primary-font:'Roboto',sans-serif;
+    --bold-color:#2E2F42;
+    --normal-color: #434455;
+    --main-blue:#4D5AE5}
+
+body {font-family: var(--primary-font)}
+
+.list { list-style: none;}
+
+a { text-decoration: none}
+
+/*============================== HEADER ============================*/
+.logo-dark, .logo-dark:hover, .logo-dark:focus,.logo-dark:active {
+    font-family: 'Raleway',sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.33;
+    color: var(--bold-color);}
+
+
+.span {color: var(--main-blue);}
+
+
+.nav-list-item {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color:var(--bold-color)}
+
+.nav-list-item:hover,
+.nav-list-item:focus {color: var(--normal-color)}
+.nav-list-item:active {color: var(--main-blue);}
+
+.contacts-item {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: var(--normal-color);}
+.contacts-item:hover,
+.contacts-item:focus { color: var(--main-blue);}
+
+/*============================== HERO ============================*/
+.hero {
+    background-color: #2E2F42;;
+}
+.hero-title {
+    font-weight: 600;
+    font-size: 56px;
+    line-height: calc(60/56);
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;}
+    
+.main-button {
+    cursor: pointer;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(19/16);
+    align-items: center;
+    letter-spacing: 0.04em;}
+.main-button:active {background-color: #404BBF;}
+
+/*============================== ADVANTAGES ============================*/
+.advantages-list-item {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;
+    color: var(--bold-color);}
+.advantages-text {
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color:var(--normal-color);}
+
+/*============================== MENU ============================*/
+.menu-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: calc(40/36);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color:var(--normal-color);
+}
+
+/*============================== EMPLOYEES ============================*/
+.team-title {
+    font-weight: 600;
+    font-size: 36px;
+    line-height: calc(40/36);
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--normal-color);}
+
+.employee {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: calc(24/20);
+    letter-spacing: 0.02em;
+    color: var(--bold-color);}
+
+
+.position {
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: var(--normal-color);}
+
+
+/*============================== PORTFOLIO ============================*/
+
+
+/*============================== BUTTONS ============================*/
+
+.button-item {
+    cursor: pointer;
+    background-color: #F4F4FD;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(24/16);
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: var(--main-blue);}
+.button-item:active {
+    background: var(--main-blue);
+    font-weight: 600;
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.04em;
+    color: #FFFFFF;}
+
+/*============================== SECTION-PROJECTS ============================*/
+
+.project-title {
+        font-weight: 600;
+        font-size: 20px;
+        line-height: calc(24/20);
+        letter-spacing: 0.02em;
+        color: var(--bold-color);}
+
+.project-direction {
+        font-size: 16px;
+        line-height: calc(24/16);
+        letter-spacing: 0.02em;
+        color: var(--normal-color);}
+
+
+/*============================== FOOTER ============================*/
+.footer {
+    background-color: var(--bold-color);}
+
+.logo-light, .logo-light:hover,.logo-light:focus, .logo-light:active {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: calc(21/18);
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;}
+
+.footer-text {
+    font-size: 16px;
+    line-height: calc(24/16);
+    letter-spacing: 0.02em;
+    color: #E7E9FC;}
